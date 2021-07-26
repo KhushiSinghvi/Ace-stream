@@ -1,7 +1,7 @@
 #wrapper{
 width :100% ;
 height: 500px;
-background-image :url("C:/Users/khush/OneDrive/Desktop/movie.jpg"), url("C:/Users/khush/OneDrive/Pictures/bg.png") ; 
+background-image :url("images/movie.jpg"), url("images/bg.png") ; 
 background-repeat : no-repeat , no-repeat;
     background-position: left top ,center;
 background-size :150px, 100%;
@@ -14,6 +14,10 @@ color : white ;
 font-size :80px;
     text-align: center;
     font-family:fantasy;
+    border:white ;
+    opacity: 100%;
+    -webkit-text-fill-color : transparent;
+    -webkit-text-stroke: 2px white;
 
 }
 #wrapper h2{
@@ -35,6 +39,7 @@ font-size :20px;
 #wrapper h2:hover{
     background-color:deepskyblue;
 }
+
 #wrapper hr{
     margin: 0px 250px;
 }
@@ -82,10 +87,12 @@ color : white;
     margin: 500px 0px;
     text-align: center;
     background-color: darkgray;
-    padding: 50px;
+    padding: 50px 20px;
     
 }
-.end img{
-    height : 100px;
-    width : 400px;
+.end i{
+    margin:0px 30px;
+}
+.end i:hover{
+    color: crimson;
 }
